@@ -35,34 +35,10 @@ A beginner-friendly data cleaning and analysis project using the Bhatbhateni sup
 
 ```
 week4/
-├── data/
+├── dataset/
 │   └── Bhatbhateni_sales.csv
-├── notebooks/
-│   └── bhatbhateni.ipynb
-├── images/
-│   └── (visualizations go here)
+├── bhatbhateni.ipynb
 └── README.md
-```
-
-## How to Run
-
-1. Open `bhatbhateni.ipynb` in Jupyter Notebook or VS Code
-2. Run cells top to bottom
-3. Make sure `Bhatbhateni_sales.csv` is in the same folder
-
-## Requirements
-
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-
-Install with:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ## Key Insights
@@ -72,9 +48,3 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - **Most used payment method:** Cash
 - **Highest revenue day:** Saturday
 - **Top category:** Grocery
-
-## Next Steps
-
-- Add visualizations to the `images/` folder
-- Push to GitHub with the folder structure above
-- Extend the model with more features
